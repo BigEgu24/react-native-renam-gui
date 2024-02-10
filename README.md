@@ -1,6 +1,6 @@
 # react-native-rename-gui
 
-Rename react-native app with just one command
+Rename react-native app with just one click
 
 ![React Native Rename GUI](/src/assets/gifs/react-native-gui.gif)
 
