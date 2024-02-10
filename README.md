@@ -41,4 +41,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgements
 
-This project uses files from the "react-native-rename" project. For the license of "react-native-rename", see the `REACT-NATIVE-RENAME-LICENSE.md` file in the `/assets/licenses` folder.
+This project uses files from the "react-native-rename" project. For the license of "react-native-rename", see the `REACT-NATIVE-RENAME-LICENSE.md` file in the `/src/assets/licenses` folder.
