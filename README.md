@@ -10,7 +10,7 @@ Rename react-native app with just one click
 
 1. Clone the repository:
     ```
-    git clone https://github.com/bigegu24/react-native-rename-gui
+    git clone https://github.com/bigegu24/react-native-rename-gui.git
     ```
 
 2. Install dependencies using either yarn or npm:
