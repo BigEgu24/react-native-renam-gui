@@ -1,7 +1,7 @@
 {
   "name": "react-native-rename-gui",
   "version": "1.0.0",
-  "description": "Rename react-native app with GUI",
+  "description": "Rename react-native app with on click",
   "main": "config/main.js",
   "keywords": [],
   "author": "Eduardo Gutierrez",
