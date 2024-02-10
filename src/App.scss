@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --primary-dark: #162430;
+    --primary-orange: rgb(245, 160, 92);
+    --primary-blue: #2196F3;
+    --drk-blue: rgb(32, 141, 230);
+
+    --nav-height: 72px;
+    --nav-height-mobile: 64px;
+
+    --ff-primary: 'Roboto', sans-serif;
+    --ff-accent: 'Poppins', sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+*:focus{
+    outline: none;
+}
+/* These styles make the body full-height */
+html, body { 
+    height: 100%; 
+    width: 100%;
+    font-size: 1.2rem;
+    letter-spacing: -.4px;
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    color: var(--primary-dark);
+    background-color: rgb(255, 255, 255);
+    font-family: var(--ff-primary);
+    font-weight: 400;
+    line-height: 1.7;
+}
+/* These styles disable body scrolling if you are using <ScrollView> */
+body { 
+    overflow: hidden; 
+}
+/* These styles make the root element full-height */
+#root { 
+    display: flex;
+	height: 100%;
+    width: 100%;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration
+    : none;
+}
+
+/* MARGIN */
+.margin-auto{
+    margin: 0 auto;
+}
+
+/* FLEXBOX */
+.flex{
+    display: flex;
+}
+.space-between{
+    justify-content: space-between;
+}
+.items-center{
+    align-items: center;
+}
+.content-center{
+    justify-content: center;
+}
+.flex-end{
+    justify-content: flex-end;
+}
+.column{
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+/* GRID */
+.grid{
+    display: grid;
+}
+.block{
+    display: block;
+}
+.inline-block{
+    display: inline-block;
+}
+.hidden{
+    display: none;
+}
+/* OVERFLOW */
+.overflow-auto{
+    overflow: auto;
+}
+/* POSITION */
+.relative{
+    position: relative;
+}
+.fixed{
+    position: fixed;
+}
+.absolute{
+    position: absolute;
+}
+/* HEIGHT */
+.full-height{
+    height: 100%;
+}
+/* WIDTH */
+.full-width{
+    width: 100%;
+}
+.width-half{
+    width: 50%;
+}
+.width-third{
+    width: 33.3333333333%;
+}
+/* POINTER */
+.pointer{
+    cursor: pointer;
+}
+.auto-pointer {
+    cursor: auto;
+}
+/* TEXT ALIGN */
+.align-center{
+    text-align: center;
+}
+.align-left{
+    text-align: left;
+}
+.align-right{
+    text-align: right;
+}
+// FLOATS
+.float-right{
+    float: right;
+}
+.float-left{
+    float: left;
+}
+// CSS Page Transition
+.fade-appear,
+.fade-enter {
+    opacity: 0;
+    z-index: 1;
+}
+.fade-appear-active,
+.fade-enter.fade-enter-active {
+    opacity: 1;
+    transition: opacity 300ms linear 150ms;
+}
+
+.fade-exit {
+    opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+    opacity: 0;
+    transition: opacity 300ms linear;
+}

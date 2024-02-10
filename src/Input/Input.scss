@@ -1,0 +1,27 @@
+.input{
+    width: 100%;
+    height: 49px;
+    margin-block-end: 0.5em;
+    color: var(--primary-dark);
+    .form__input{
+        left: 0;
+        border-radius: 5px;
+        border: 1px solid #e3e3e3;
+        padding-left: 18px;
+        padding-top: 15px;
+    }
+    .form__label{
+        left: 18px;
+        top: 11.5px;
+        font-size: 0.8125rem;
+        transition: 0.2s ease-in-out;
+        pointer-events: none;
+        color: var(--primary-dark);
+        &.active{
+            font-size: 0.56rem;
+            background-color: transparent;
+            top: 4px;
+            left: 16px;
+        }
+    }
+}
