@@ -37,7 +37,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE.md](/src/assets/licenses/LICENSE.md) file for details.
 
 ## Acknowledgements
 
