@@ -15,7 +15,7 @@ Rename react-native app with just one click
 
 2. Install dependencies using either yarn or npm:
     ```
-    yarn install
+    yarn
     ```
     or
     ```
